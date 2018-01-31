@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Information Security Incident" max_length="40" name="x_muusa_informatio_information_security_incident" type="collection"/>
+</database>

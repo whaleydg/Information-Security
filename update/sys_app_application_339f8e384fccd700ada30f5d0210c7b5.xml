@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Information Security</name>
+        <order/>
+        <roles>x_muusa_informatio.user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>whaledg</sys_created_by>
+        <sys_created_on>2018-01-31 16:47:56</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>339f8e384fccd700ada30f5d0210c7b5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Information Security</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Information Security" source="x_muusa_informatio">739f46384fccd700ada30f5d0210c7f6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Information Security">739f46384fccd700ada30f5d0210c7f6</sys_scope>
+        <sys_update_name>sys_app_application_339f8e384fccd700ada30f5d0210c7b5</sys_update_name>
+        <sys_updated_by>whaledg</sys_updated_by>
+        <sys_updated_on>2018-01-31 16:48:02</sys_updated_on>
+        <title>Information Security</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>
