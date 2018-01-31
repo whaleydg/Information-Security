@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="category" table="x_muusa_informatio_information_security_incident" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Confidential data exposure</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence>0</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-01-31 17:51:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ac1e9e7c4fccd700ada30f5d0210c70e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-01-31 17:51:45</sys_updated_on>
+            <value>Confidential data exposure</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Priviledge Escalation</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence>0</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-01-31 17:52:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>095e523c4fccd700ada30f5d0210c710</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-01-31 17:52:12</sys_updated_on>
+            <value>Priviledge Escalation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Criminal activity/investigation</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence>1</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-01-31 17:52:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>916e167c4fccd700ada30f5d0210c797</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-01-31 17:52:29</sys_updated_on>
+            <value>Criminal activity/investigation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Denial of Service</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence>2</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-01-31 17:52:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f57e167c4fccd700ada30f5d0210c725</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-01-31 17:52:47</sys_updated_on>
+            <value>Denial of Service</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Digital Millennium Copyright Act (DMCA) violation</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence>3</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-01-31 17:53:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>409e167c4fccd700ada30f5d0210c799</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-01-31 17:53:13</sys_updated_on>
+            <value>Digital Millennium Copyright Act (DMCA) violation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Equipment loss</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence>4</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-01-31 17:53:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>95aed27c4fccd700ada30f5d0210c7a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-01-31 17:53:34</sys_updated_on>
+            <value>Equipment loss</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Malicious code activity</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence>5</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-01-31 17:53:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>8dbe9e7c4fccd700ada30f5d0210c711</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-01-31 17:53:50</sys_updated_on>
+            <value>Malicious code activity</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Policy violation</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence>7</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-01-31 17:54:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>40de523c4fccd700ada30f5d0210c715</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-01-31 17:54:18</sys_updated_on>
+            <value>Policy violation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rogue server or service</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence>10</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-01-31 17:54:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>04fede7c4fccd700ada30f5d0210c77a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-01-31 17:54:52</sys_updated_on>
+            <value>Rogue server or service</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Spam source</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence>11</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-01-31 17:55:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d90fde7c4fccd700ada30f5d0210c706</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-01-31 17:55:13</sys_updated_on>
+            <value>Spam source</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Phishing</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence>12</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-01-31 17:55:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>911f167c4fccd700ada30f5d0210c79c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-01-31 17:55:29</sys_updated_on>
+            <value>Phishing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Un-patched vulnerability</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence>13</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-01-31 17:55:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a82f9ef84fccd700ada30f5d0210c770</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-01-31 17:55:42</sys_updated_on>
+            <value>Un-patched vulnerability</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unauthorized access</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence>14</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-01-31 17:55:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>943f9a7c4fccd700ada30f5d0210c7e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-01-31 17:55:58</sys_updated_on>
+            <value>Unauthorized access</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Web defacement</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence>15</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-01-31 17:56:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d46f927c4fccd700ada30f5d0210c78d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-01-31 17:56:47</sys_updated_on>
+            <value>Web defacement</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Shared Intelligence</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence>16</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-01-31 17:57:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>197f167c4fccd700ada30f5d0210c728</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-01-31 17:57:07</sys_updated_on>
+            <value>Shared Intelligence</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-01-31 17:51:45</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>763e967c4fccd700ada30f5d0210c7bd</sys_id>
+            <sys_mod_count>15</sys_mod_count>
+            <sys_name>category</sys_name>
+            <sys_package display_value="Information Security" source="x_muusa_informatio">739f46384fccd700ada30f5d0210c7f6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Information Security">739f46384fccd700ada30f5d0210c7f6</sys_scope>
+            <sys_update_name>sys_choice_x_muusa_informatio_information_security_incident_category</sys_update_name>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-01-31 17:57:07</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

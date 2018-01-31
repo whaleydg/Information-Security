@@ -1,4 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Information Security Incident" max_length="40" name="x_muusa_informatio_information_security_incident" type="collection"/>
+    <element extends="task" label="Information Security Incident" max_length="40" name="x_muusa_informatio_information_security_incident" type="collection">
+        <element choice="1" label="Category" max_length="40" name="category" type="choice">
+            <choice>
+                <element label="Confidential data exposure" sequence="0" value="Confidential data exposure"/>
+                <element label="Priviledge Escalation" sequence="0" value="Priviledge Escalation"/>
+                <element label="Criminal activity/investigation" sequence="1" value="Criminal activity/investigation"/>
+                <element label="Denial of Service" sequence="2" value="Denial of Service"/>
+                <element label="Digital Millennium Copyright Act (DMCA) violation" sequence="3" value="Digital Millennium Copyright Act (DMCA) violation"/>
+                <element label="Equipment loss" sequence="4" value="Equipment loss"/>
+                <element label="Malicious code activity" sequence="5" value="Malicious code activity"/>
+                <element label="Policy violation" sequence="7" value="Policy violation"/>
+                <element label="Rogue server or service" sequence="10" value="Rogue server or service"/>
+                <element label="Spam source" sequence="11" value="Spam source"/>
+                <element label="Phishing" sequence="12" value="Phishing"/>
+                <element label="Un-patched vulnerability" sequence="13" value="Un-patched vulnerability"/>
+                <element label="Unauthorized access" sequence="14" value="Unauthorized access"/>
+                <element label="Web defacement" sequence="15" value="Web defacement"/>
+                <element label="Shared Intelligence" sequence="16" value="Shared Intelligence"/>
+            </choice>
+        </element>
+        <element choice="1" dependent="category" dependent_on_field="category" label="Subcategory" max_length="40" name="subcategory" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Unauthorized access" label="Abuse of access privileges" value="1"/>
+                <element dependent_value="Malicious code activity" label="Botnet" value="43"/>
+                <element dependent_value="Rogue server or service" label="Botnet controller" value="2"/>
+                <element dependent_value="Unauthorized access" label="Brute force password cracking attempts" value="3"/>
+                <element dependent_value="Criminal activity/investigation" label="Child pornography" value="4"/>
+                <element dependent_value="Policy violation" label="Company policy violation" value="5"/>
+                <element dependent_value="Confidential personal identity data exposure" label="Credit card information" value="6"/>
+                <element dependent_value="Web/BBS defacement" label="Defacement of web site" value="7"/>
+                <element dependent_value="Confidential personal identity data exposure" label="Identity theft" value="8"/>
+                <element dependent_value="Digital Millennium Copyright Act (DMCA) violation" label="Illegal distribution of copyrighted or licensed material" value="9"/>
+                <element dependent_value="Digital Millennium Copyright Act (DMCA) violation" label="Illegal possession of copyrighted or licensed material" value="10"/>
+                <element dependent_value="Web/BBS defacement" label="Inappropriate post to BBS, wiki, blog, etc." value="11"/>
+                <element dependent_value="Denial of Service" label="Inbound or outbound" value="12"/>
+                <element dependent_value="Malicious code activity" label="Keylogger" value="13"/>
+                <element dependent_value="Equipment loss" label="Lost equipment" value="44"/>
+                <element dependent_value="Digital Millennium Copyright Act (DMCA) violation" label="Official DMCA notification from copyright owner or legal representative" value="14"/>
+                <element dependent_value="Criminal activity/investigation" label="Online theft, fraud" value="15"/>
+                <element dependent_value="Confidential personal identity data exposure" label="Other" value="16"/>
+                <element dependent_value="Reconnaissance activity" label="Other vulnerability scanning" value="17"/>
+                <element dependent_value="Policy violation" label="Personnel action/investigation" value="18"/>
+                <element dependent_value="Rogue server or service" label="Phishing scam web server" value="19"/>
+                <element dependent_value="Criminal activity/investigation" label="Physical theft, break-in" value="20"/>
+                <element dependent_value="Reconnaissance activity" label="Port scanning" value="21"/>
+                <element dependent_value="Web/BBS defacement" label="Redirected web site" value="22"/>
+                <element dependent_value="Rogue server or service" label="Rogue file/FTP server for music, movies, pirated software, etc." value="23"/>
+                <element dependent_value="Malicious code activity" label="Rootkit" value="24"/>
+                <element dependent_value="Phishing" label="Scam e-mail activity" value="25"/>
+                <element dependent_value="Denial of Service" label="Single or distributed (DoS or DDoS)" value="26"/>
+                <element dependent_value="Confidential personal identity data exposure" label="Social Security Numbers with or without names" value="27"/>
+                <element dependent_value="Spam source" label="Spam host" value="28"/>
+                <element dependent_value="Spam source" label="Spam relay" value="29"/>
+                <element dependent_value="Phishing" label="Spear phishing" value="35"/>
+                <element dependent_value="Equipment loss" label="Stolen equipment" value="45"/>
+                <element dependent_value="Unauthorized access" label="Stolen password(s)" value="30"/>
+                <element dependent_value="Criminal activity/investigation" label="Subpoena, search warrant, or other court order" value="31"/>
+                <element dependent_value="Criminal activity/investigation" label="Threatening communication" value="32"/>
+                <element dependent_value="Unauthorized access" label="Unauthorized access to data" value="33"/>
+                <element dependent_value="Unauthorized access" label="Unauthorized login attempts" value="34"/>
+                <element dependent_value="Reconnaissance activity" label="Unauthorized monitoring" value="35"/>
+                <element dependent_value="Policy violation" label="Violation of code of conduct" value="36"/>
+                <element dependent_value="Un-patched vulnerability" label="Vulnerable application" value="37"/>
+                <element dependent_value="Un-patched vulnerability" label="Vulnerable operating system" value="38"/>
+                <element dependent_value="Un-patched vulnerability" label="Vulnerable web site/service" value="39"/>
+                <element dependent_value="Un-patched vulnerability" label="Weak or no password on an account" value="40"/>
+                <element dependent_value="No Incident" label="When investigation of suspicious activity finds no evidence of a security incident" value="41"/>
+                <element dependent_value="Malicious code activity" label="Worm, virus, Trojan" value="42"/>
+                <element dependent_value="Priviledge Escalation" label="Active Directory Domain Admin" sequence="0" value="Active Directory Domain Admin"/>
+                <element dependent_value="Privilege Escalation" label="Active Directory Domain Admin" sequence="0" value="Active Directory Domain Admin"/>
+                <element dependent_value="Priviledge Escalation" label="Application Admin" sequence="1" value="Application Admin"/>
+                <element dependent_value="Privilege Escalation" label="Application Admin" sequence="1" value="Application Admin"/>
+            </choice>
+        </element>
+    </element>
 </database>

@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="subcategory" table="x_muusa_informatio_information_security_incident" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Unauthorized access</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Abuse of access privileges</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4f0c15a0df223100b5157a0d3df26327</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:10</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Digital Millennium Copyright Act (DMCA) violation</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Illegal possession of copyrighted or licensed material</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6e0c15a0df223100b5157a0d3df2631b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:08</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Web/BBS defacement</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inappropriate post to BBS, wiki, blog, etc.</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6f0c15a0df223100b5157a0d3df2632d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:11</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Denial of Service</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inbound or outbound</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6e0c15a0df223100b5157a0d3df26319</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:07</sys_updated_on>
+            <value>12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Malicious code activity</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Keylogger</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6e0c15a0df223100b5157a0d3df2631d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:08</sys_updated_on>
+            <value>13</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Digital Millennium Copyright Act (DMCA) violation</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Official DMCA notification from copyright owner or legal representative</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6e0c15a0df223100b5157a0d3df2631a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:07</sys_updated_on>
+            <value>14</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Criminal activity/investigation</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Online theft, fraud</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>560cdd60df223100b5157a0d3df263d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:07</sys_updated_on>
+            <value>15</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Confidential personal identity data exposure</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5e0cdd60df223100b5157a0d3df263ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:07</sys_updated_on>
+            <value>16</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Reconnaissance activity</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other vulnerability scanning</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7e0c15a0df223100b5157a0d3df26321</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:09</sys_updated_on>
+            <value>17</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Policy violation</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Personnel action/investigation</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>760c15a0df223100b5157a0d3df26320</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:08</sys_updated_on>
+            <value>18</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Rogue server or service</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Phishing scam web server</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7e0c15a0df223100b5157a0d3df26323</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:09</sys_updated_on>
+            <value>19</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Rogue server or service</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Botnet controller</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>760c15a0df223100b5157a0d3df26324</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:09</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Criminal activity/investigation</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Physical theft, break-in</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5e0cdd60df223100b5157a0d3df263d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:07</sys_updated_on>
+            <value>20</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Reconnaissance activity</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Port scanning</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>760c15a0df223100b5157a0d3df26321</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:09</sys_updated_on>
+            <value>21</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Web/BBS defacement</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Redirected web site</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>670c15a0df223100b5157a0d3df2632e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:12</sys_updated_on>
+            <value>22</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Rogue server or service</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rogue file/FTP server for music, movies, pirated software, etc.</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>760c15a0df223100b5157a0d3df26323</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:09</sys_updated_on>
+            <value>23</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Malicious code activity</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rootkit</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>660c15a0df223100b5157a0d3df2631e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:08</sys_updated_on>
+            <value>24</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Phishing</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Scam e-mail activity</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4f0c15a0df223100b5157a0d3df26326</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:10</sys_updated_on>
+            <value>25</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Denial of Service</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Single or distributed (DoS or DDoS)</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>560c15a0df223100b5157a0d3df26319</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:07</sys_updated_on>
+            <value>26</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Confidential personal identity data exposure</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Social Security Numbers with or without names</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>560cdd60df223100b5157a0d3df263cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:06</sys_updated_on>
+            <value>27</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Spam source</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Spam host</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4f0c15a0df223100b5157a0d3df26325</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:10</sys_updated_on>
+            <value>28</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Spam source</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Spam relay</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>470c15a0df223100b5157a0d3df26325</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:09</sys_updated_on>
+            <value>29</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Unauthorized access</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Brute force password cracking attempts</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>570c15a0df223100b5157a0d3df26329</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:10</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Unauthorized access</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Stolen password(s)</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5f0c15a0df223100b5157a0d3df26329</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:10</sys_updated_on>
+            <value>30</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Criminal activity/investigation</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Subpoena, search warrant, or other court order</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5e0cdd60df223100b5157a0d3df263cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:07</sys_updated_on>
+            <value>31</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Criminal activity/investigation</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Threatening communication</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5e0cdd60df223100b5157a0d3df263d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:07</sys_updated_on>
+            <value>32</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Unauthorized access</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unauthorized access to data</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>470c15a0df223100b5157a0d3df26328</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:10</sys_updated_on>
+            <value>33</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Unauthorized access</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unauthorized login attempts</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4f0c15a0df223100b5157a0d3df26328</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:10</sys_updated_on>
+            <value>34</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Phishing</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Spear phishing</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>bf45b27fbffb46e3896b3b76e631b42a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:10</sys_updated_on>
+            <value>35</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Reconnaissance activity</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unauthorized monitoring</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>760c15a0df223100b5157a0d3df26322</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:09</sys_updated_on>
+            <value>35</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Policy violation</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Violation of code of conduct</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7e0c15a0df223100b5157a0d3df2631f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:08</sys_updated_on>
+            <value>36</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Un-patched vulnerability</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vulnerable application</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>570c15a0df223100b5157a0d3df2632b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:11</sys_updated_on>
+            <value>37</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Un-patched vulnerability</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vulnerable operating system</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5f0c15a0df223100b5157a0d3df2632a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:11</sys_updated_on>
+            <value>38</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Un-patched vulnerability</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vulnerable web site/service</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5f0c15a0df223100b5157a0d3df2632b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:11</sys_updated_on>
+            <value>39</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Criminal activity/investigation</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Child pornography</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>560cdd60df223100b5157a0d3df263d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:07</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Un-patched vulnerability</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Weak or no password on an account</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>570c15a0df223100b5157a0d3df2632c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:11</sys_updated_on>
+            <value>40</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>No Incident</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>When investigation of suspicious activity finds no evidence of a security incident</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>670c15a0df223100b5157a0d3df2632f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:12</sys_updated_on>
+            <value>41</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Malicious code activity</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Worm, virus, Trojan</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6e0c15a0df223100b5157a0d3df2631c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:08</sys_updated_on>
+            <value>42</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Malicious code activity</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Botnet</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>660c15a0df223100b5157a0d3df2631d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:08</sys_updated_on>
+            <value>43</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Equipment loss</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lost equipment</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2016-10-12 21:19:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7be8776f0b522200263a089b37673a05</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2016-10-12 21:20:33</sys_updated_on>
+            <value>44</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Equipment loss</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Stolen equipment</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2016-10-12 21:19:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a009776f0b522200263a089b37673ad0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2016-10-12 21:20:27</sys_updated_on>
+            <value>45</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Policy violation</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Company policy violation</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>660c15a0df223100b5157a0d3df2631f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:08</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Confidential personal identity data exposure</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Credit card information</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5e0cdd60df223100b5157a0d3df263cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:07</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Web/BBS defacement</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Defacement of web site</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>570c15a0df223100b5157a0d3df2632d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:11</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Confidential personal identity data exposure</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Identity theft</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>560cdd60df223100b5157a0d3df263ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:07</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Digital Millennium Copyright Act (DMCA) violation</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Illegal distribution of copyrighted or licensed material</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2015-02-26 23:54:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>660c15a0df223100b5157a0d3df2631b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2015-02-26 23:54:08</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Priviledge Escalation</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Active Directory Domain Admin</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence>0</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2017-01-11 18:31:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c54b7bb43b103200616ecea234efc453</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2017-01-11 18:31:38</sys_updated_on>
+            <value>Active Directory Domain Admin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Privilege Escalation</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Active Directory Domain Admin</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence>0</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2017-01-11 22:36:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f843fc893b503200616ecea234efc4df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2017-01-11 22:36:18</sys_updated_on>
+            <value>Active Directory Domain Admin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Priviledge Escalation</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Application Admin</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence>1</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2017-01-11 18:31:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4d4bbbb43b103200616ecea234efc498</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2017-01-11 18:31:38</sys_updated_on>
+            <value>Application Admin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Privilege Escalation</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Application Admin</label>
+            <language>en</language>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sequence>1</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2017-01-11 22:36:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f843fc893b503200616ecea234efc4e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2017-01-11 22:36:18</sys_updated_on>
+            <value>Application Admin</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>subcategory</element>
+            <name>x_muusa_informatio_information_security_incident</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-01-31 18:11:31</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>0cc2aafc4fccd700ada30f5d0210c797</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>subcategory</sys_name>
+            <sys_package display_value="Information Security" source="x_muusa_informatio">739f46384fccd700ada30f5d0210c7f6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Information Security">739f46384fccd700ada30f5d0210c7f6</sys_scope>
+            <sys_update_name>sys_choice_x_muusa_informatio_information_security_incident_subcategory</sys_update_name>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-01-31 18:11:31</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
